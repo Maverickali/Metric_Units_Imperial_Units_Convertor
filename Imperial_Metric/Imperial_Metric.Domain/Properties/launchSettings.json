@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Imperial_Metric.Domain": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:2868;http://localhost:2869"
+    }
+  }
+}

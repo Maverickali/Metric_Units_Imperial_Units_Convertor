@@ -1,0 +1,12 @@
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\bin\Debug\net7.0\Imperial_Metric.Application.deps.json
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\bin\Debug\net7.0\Imperial_Metric.Application.dll
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\bin\Debug\net7.0\Imperial_Metric.Application.pdb
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.csproj.AssemblyReference.cache
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.AssemblyInfoInputs.cache
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.AssemblyInfo.cs
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.csproj.CoreCompileInputs.cache
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.dll
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\refint\Imperial_Metric.Application.dll
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\Imperial_Metric.Application.pdb
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Imperial_Metric.Application\obj\Debug\net7.0\ref\Imperial_Metric.Application.dll

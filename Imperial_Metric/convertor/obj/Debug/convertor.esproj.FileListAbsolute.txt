@@ -1,0 +1,2 @@
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Convertor\obj\Debug\convertor.esproj.SuggestedBindingRedirects.cache
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\Convertor\obj\Debug\convertor.esproj.CoreCompileInputs.cache

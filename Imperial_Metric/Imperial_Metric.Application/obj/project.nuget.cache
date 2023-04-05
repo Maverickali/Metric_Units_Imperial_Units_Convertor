@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rIEZZKBfkDwl9E5CemqtMRBljX1/8LdYK/VEEoVxb2yQtJv8jbqLhnwyp0pzhvy645V3FVIvoIuJyOWci9AgCA==",
+  "success": true,
+  "projectFilePath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\colli\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Infrastructure\\Imperial_Metric.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj",
+        "projectName": "Imperial_Metric.Application",
+        "projectPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj",
+        "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\Imperial_Metric.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\Imperial_Metric.Domain.csproj",
+        "projectName": "Imperial_Metric.Domain",
+        "projectPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\Imperial_Metric.Domain.csproj",
+        "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Infrastructure\\Imperial_Metric.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Infrastructure\\Imperial_Metric.Infrastructure.csproj",
+        "projectName": "Imperial_Metric.Infrastructure",
+        "projectPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Infrastructure\\Imperial_Metric.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj": {
+                "projectPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Application\\Imperial_Metric.Application.csproj"
+              },
+              "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\Imperial_Metric.Domain.csproj": {
+                "projectPath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric.Domain\\Imperial_Metric.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

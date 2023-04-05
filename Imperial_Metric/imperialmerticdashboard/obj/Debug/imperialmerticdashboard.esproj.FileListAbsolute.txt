@@ -1,0 +1,2 @@
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\ImperialMerticDashboard\obj\Debug\imperialmerticdashboard.esproj.SuggestedBindingRedirects.cache
+D:\CodeBase\C#Projects\indomidas\Metric_Units_Imperial_Units_Convertor\Imperial_Metric\ImperialMerticDashboard\obj\Debug\imperialmerticdashboard.esproj.CoreCompileInputs.cache
