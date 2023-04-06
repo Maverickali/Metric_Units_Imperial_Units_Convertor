@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Imperial_Metric.Application.DTOS.Auth
 {
-    public class AuthRequest
+    public class AuthRequestDto
     {
         public string Email { get; set; } = null!;
         public string Password { get; set; } = null!;

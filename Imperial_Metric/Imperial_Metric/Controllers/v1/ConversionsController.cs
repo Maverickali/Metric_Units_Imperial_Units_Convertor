@@ -23,7 +23,7 @@ namespace Imperial_Metric.WebApi.Controllers.v1
 
         }
 
-        [HttpGet(Name = "GetConversionUnit"), Authorize]
+        [HttpGet(Name = "GetConversionUnit")]
         public async Task<Response<string>> GetConversionUnit([FromBody] ConvertorDto query)
         {
             var conversionsRates = Enumerable.Empty<ConversionsRates>();

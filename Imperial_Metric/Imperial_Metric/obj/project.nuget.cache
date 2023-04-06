@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r8xMYsjaMI2tLZpwzyRC8l+uCIWpghojHNHfxatQnqojyQVTlXaHapziqiAgbfkgG63kk4igGLqs4uqCv8KJiQ==",
+  "dgSpecHash": "9/H0gAbTkTS1lD9xhLIZyqPfNL3L+KS/aLoo48QxL+zE3jpG7xuFCFHjP9+MgoKVShTBnufcevflwBcI6VpmwQ==",
   "success": true,
   "projectFilePath": "D:\\CodeBase\\C#Projects\\indomidas\\Metric_Units_Imperial_Units_Convertor\\Imperial_Metric\\Imperial_Metric\\Imperial_Metric.WebApi.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.4\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
-    "C:\\Users\\colli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\colli\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",

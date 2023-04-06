@@ -1,16 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Imperial_Metric.Application.Interfaces;
+﻿using Imperial_Metric.Application.Interfaces;
 using Imperial_Metric.Domain.Common;
 using Imperial_Metric.Domain.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.Extensions.Logging;
 
 namespace Imperial_Metric.Infrastructure.Context
 {
@@ -62,8 +57,7 @@ namespace Imperial_Metric.Infrastructure.Context
                 new Conversions { Id = 5, conversionName="Pressure" },
                 new Conversions { Id = 6, conversionName="Volume" }
             });
-            builder.Entity<ConversionsRates>().HasData(
-                new List<ConversionsRates>()
+            builder.Entity<ConversionsRates>().HasData(new List<ConversionsRates>()
             {
                 new ConversionsRates { Id = newGuid() , Name = "Celsius to Fahrenheit", FromUnit = "Celsius", ToUnit = "Fahrenheit", ConversionFactor = 1.8, ConversionOffset = 32, ConversionId=4},
                 new ConversionsRates { Id = newGuid(), Name = "Fahrenheit to Celsius", FromUnit = "Fahrenheit", ToUnit = "Celsius", ConversionFactor = 0.5555555556, ConversionOffset = -32, ConversionId=4},
@@ -89,10 +83,7 @@ namespace Imperial_Metric.Infrastructure.Context
                 new ConversionsRates { Id = newGuid(), Name = "Miles to Kilometers", FromUnit = "Miles per hour", ToUnit = "Kilometers per hour", ConversionFactor = 1.60934 , ConversionId = 3}
 
                 
-                }
-
-
-                );
+                });
 
             base.OnModelCreating(builder);
         }

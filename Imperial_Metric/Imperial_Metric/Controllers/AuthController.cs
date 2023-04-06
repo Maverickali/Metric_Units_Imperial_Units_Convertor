@@ -25,7 +25,7 @@ namespace Imperial_Metric.WebApi.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<ActionResult<AuthResponseDto>> Authenticate([FromBody] AuthRequest request)
+        public async Task<ActionResult<AuthResponseDto>> Authenticate([FromBody] AuthRequestDto request)
         {
             if (!ModelState.IsValid)
             {
