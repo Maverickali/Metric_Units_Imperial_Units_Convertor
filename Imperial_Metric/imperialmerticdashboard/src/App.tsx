@@ -15,8 +15,8 @@ function App() {
     temperature: undefined,
   });
 
-  const getWeather = async () => {
-    const response = await fetch("http://localhost:5010/weatherforecast", {
+  const getConversions = async () => {
+    const response = await fetch("http://localhost:5010/api/v1/conversions", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -34,13 +34,10 @@ function App() {
       <RegisterForm />
       <LoginForm setToken={setToken} />
       <div style={{ marginTop: "75px" }}>
-        <button onClick={getWeather} style={{ marginBottom: "10px" }}>
+        <button onClick={getConversions} style={{ marginBottom: "10px" }}>
           Get Conversations
         </button>
-        <div>
-          <div>Weather summary: {weather.summary}</div>
-          <div>Weather temperature: {weather.temperature}</div>
-        </div>
+        
       </div>
     </div>
   );

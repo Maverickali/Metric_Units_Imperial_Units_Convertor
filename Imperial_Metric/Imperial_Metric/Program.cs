@@ -50,7 +50,7 @@ try
     {
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
         // use context
-        dbContext.Database.EnsureCreated();
+       // dbContext.Database.EnsureCreated();
     }
 
     if (app.Environment.IsDevelopment())

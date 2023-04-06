@@ -18,7 +18,7 @@ const RegisterForm = () => {
         username,
         password,
       }
-      const response = await fetch("http://localhost:5010/auth/register", {
+      const response = await fetch("5010//api/auth/v1/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

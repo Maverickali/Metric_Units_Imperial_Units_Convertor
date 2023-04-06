@@ -1,4 +1,5 @@
 ﻿using IdentityModel;
+using Imperial_Metric.Application.DTOS.Conversions;
 using Imperial_Metric.Application.Interfaces;
 using Imperial_Metric.Application.Wrappers;
 using Imperial_Metric.Domain.Entities;
@@ -21,26 +22,13 @@ namespace Imperial_Metric.WebApi.Controllers.v1
             _conversionsRatesRepo = conversionsRatesRepo;
 
         }
-        [HttpGet(Name = "GetConversions")]
-        public async Task<PagedResponse<IEnumerable<Conversions>>> Get()
-        {
-            var conversions = Enumerable.Empty<Conversions>();
-            try
-            {
-                 conversions = await _conversionsRepo.GetAllAsync();
-            }
-            catch (Exception ex)
-            {
 
-                throw ex;
-            }
-            return (PagedResponse<IEnumerable<Conversions>>)(conversions ?? Enumerable.Empty<Conversions>());
-        }
-
-        [HttpGet(Name = "Convertor")]
-        public async Task<string> Converting ([FromBody] ConvertorDto query)
+        [HttpGet(Name = "GetConversionUnit"), Authorize]
+        public async Task<Response<string>> GetConversionUnit([FromBody] ConvertorDto query)
         {
-            var conversionsRates= Enumerable.Empty<ConversionsRates>();
+            var conversionsRates = Enumerable.Empty<ConversionsRates>();
+
+            Response<string> response = null!;
             string valueConverted = string.Empty;
             try
             {
@@ -48,19 +36,43 @@ namespace Imperial_Metric.WebApi.Controllers.v1
                 var proccessing = conversionsRates.Where(x => x.ConversionId == query.conversionId
                 && x.FromUnit == query.ToUnit).FirstOrDefault();
 
-                if (proccessing is not null) {
-                    
+                if (proccessing is not null)
+                {
+
                     valueConverted = ((query.valueToConvertor * proccessing.ConversionFactor) + proccessing.ConversionOffset).ToString();
+                    response.Data = valueConverted;
+                    response.Succeeded = true;
                 }
             }
             catch (Exception ex)
             {
 
                 Log.Warning(ex, "An error occurred starting the application");
+                response.Errors = new List<string>() { ex.Message };
 
             }
-            return valueConverted??string.Empty;
+            return response;
         }
+
+        //[HttpGet(Name = "GetConversions"),Authorize]
+        
+        //public async Task<PagedResponse<IEnumerable<Conversions>>> Get([FromQuery] SearchFilterDto search)
+        //{
+        //    var conversions = Enumerable.Empty<Conversions>();
+        //    try
+        //    {
+        //         conversions = await _conversionsRepo.GetAllAsync();
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //        throw ex;
+        //    }
+        //    return (PagedResponse<IEnumerable<Conversions>>)(conversions ?? Enumerable.Empty<Conversions>());
+        //}
+
+   
+        
 
 
     }
